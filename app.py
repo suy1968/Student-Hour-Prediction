@@ -1,5 +1,6 @@
 import streamlit as st
 import pickle as pkl
+import sklearn
 
 pickle_in = open('regressor.pickle', 'rb')
 regressor = pkl.load(pickle_in)
